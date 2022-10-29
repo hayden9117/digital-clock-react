@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.clock-container {
+  display: flex;
+  gap: 1em;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background: rgb(38, 38, 142);
+}
+
+.clock-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 50%;
+  background: rgb(0, 0, 0);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+  color: white
+}
+
+.power-button {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none;
+  padding: .2em;
+  color: azure;
+  background-color: crimson;
+}
+
+.power-button:hover {
+cursor: pointer;
+}
+
+.power-button:active {
+  -webkit-transform: scale(1.4);
+    transform: scale(.9);
+    
+  }
+
+
+
+
+
