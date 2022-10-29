@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <h1>Digital Clock</h1>
-      <p> This is a digital clock made with react and java script</p>
+      <p> This is a digital clock made with react and java script with love</p>
       <div className="clock-container">
         <div className="clock-screen">
           <h1>{power ? date.toLocaleTimeString() : null}</h1>{" "}
